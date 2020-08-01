@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 99vw;
+  height: 100vh;
+  background-color: azure;
+  background: url(images/sun_art_geometric_144398_1920x1200.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem;
+}
+.header {
+  text-align: center;
+}
+.header h1 {
+  margin-bottom: 1rem;
+  font-size: 3.3rem;
+  text-shadow: 5px 6px rgb(109, 151, 194);
+  color: #240fce;
+}
+.header p {
+  margin-bottom: 3rem;
+  font-size: 1.6rem;
+  text-shadow: 3px 4px rgb(255, 216, 40);
+  color: #260fc9;
+}
+.grid {
+  visibility: hidden;
+  width: 600px;
+  height: 600px;
+  /* border: 1px solid black; */
+}
+.box {
+  background-color: rgb(162, 162, 218);
+  border: 1px solid black;
+}
+.grid-btns {
+  margin-bottom: 4rem;
+}
+.grid-btns button {
+  height: 2rem;
+  padding: 0 0.4rem;
+  border-radius: 10px;
+  border: 1px solid #0000ff;
+  font-size: 1.1rem;
+  background-color: transparent;
+  color: #0000ff;
+}
+.grid-btns button:hover {
+  cursor: pointer;
+  background-color: rgba(128, 128, 128, 0.329);
+}
